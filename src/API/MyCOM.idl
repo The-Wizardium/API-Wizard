@@ -1,0 +1,49 @@
+/////////////////////////////////////////////////////////////////////////////////
+// * FB2K Component: COM Automation and ActiveX Interface                    * //
+// * Description:    MyCOM Type Library File                                 * //
+// * Author:         TT                                                      * //
+// * Website:        https://github.com/The-Wizardium/API-Wizard             * //
+// * Version:        0.2                                                     * //
+// * Dev. started:   12-12-2024                                              * //
+// * Last change:    22-12-2024                                              * //
+/////////////////////////////////////////////////////////////////////////////////
+
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+[
+	object,
+	uuid(B2C3D4E5-F678-40A1-8234-6789ABCDEF01), // UUID for MyCOMAPI
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface MyCOMAPI : IDispatch {
+	// * PUBLIC API - PROPERTIES * //
+	[propget, id(1)] HRESULT WindowWidth([out, retval] LONG* pValue);
+	[propput, id(1)] HRESULT WindowWidth([in] VARIANT newValue);
+	[propget, id(2)] HRESULT WindowHeight([out, retval] LONG* pValue);
+	[propput, id(2)] HRESULT WindowHeight([in] VARIANT newValue);
+
+	// * PUBLIC API - METHODS * //
+	HRESULT SetWindowSize([in] int width, [in] int height);
+	HRESULT PrintMessage();
+};
+
+[
+	uuid(A1B2C3D4-E5F6-4780-9234-56789ABCDEF1), // UUID for MyCOMLIB
+	version(1.0),
+]
+library MyCOMLIB {
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(C3D4E5F6-4780-91B2-3456-789ABCDEFF02) // UUID for MyCOM coclass
+	]
+	coclass MyCOM {
+		[default] interface MyCOMAPI;
+	};
+};
