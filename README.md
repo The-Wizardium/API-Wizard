@@ -32,10 +32,11 @@
 <br>
 
 <!-- #region CHRONICLES OF THE TOPAZ SANCTUM -->
-*Sealed within the radiant **Topazurum Sanctum**, where glowing crystals pulse with primal energy,
-the *API Wizard* (foo_api_wizard) is a sacred key to *The Wizardium*’s grimoire.
-Its runic seal, broken only by those who master the art of COM automation, unlocks foobar2000’s ActiveX realm,
-empowering scholars to cast intricate rituals via JavaScript with spellbinding precision.*
+
+*Sealed within the radiant **Topazurum Sanctum**, where crystals hum with the primal force of automation,
+the **API Wizard** is a sacred key to The Wizardium’s grimoire.
+Its runic seal, the elder **ᚢ Uruz**, yields only to masters of COM incantations,
+unveiling foobar2000’s ActiveX realm to command its core with arcane JavaScript.
 
 <br>
 

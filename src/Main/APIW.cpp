@@ -3,9 +3,9 @@
 // * Description:    API Wizard Source File                                  * //
 // * Author:         TT                                                      * //
 // * Website:        https://github.com/The-Wizardium/API-Wizard             * //
-// * Version:        0.2                                                     * //
+// * Version:        0.1.0                                                   * //
 // * Dev. started:   12-12-2024                                              * //
-// * Last change:    22-12-2024                                              * //
+// * Last change:    01-09-2025                                              * //
 /////////////////////////////////////////////////////////////////////////////////
 
 
@@ -20,19 +20,27 @@
 #pragma region Component Setup
 // Declaration of your component's version information
 DECLARE_COMPONENT_VERSION(
-	"API Wizard", "0.1",
+	"API Wizard", "0.1.0",
+
 	"API Wizard \n"
-	"The Golden Spell of Automation Rituals \n"
-	"A Sacred Chapter of The Wizardium \n"
+	"The Topaz Spell Of Automation Rituals \n"
+	"Aurea Clavis Splendet \n\n"
+
+	"A Sacred Chapter Of The Wizardium \n"
+	"https://www.The-Wizardium.org \n"
 	"https://github.com/The-Wizardium \n\n"
-	"Forged in radiant gold within the Holy Foobar Land, API Wizard unlocks the ActiveX realm.\n"
-	"Cast automation rituals through JavaScript incantations, choosing between:\n"
-	"- **Registry-Free Communion**: MinHook's relic binds the magic without earthly registries\n"
-	"- **Traditional Registry Rites**: Classic ceremonial bindings for ancient systems\n\n"
-	"Summon the golden key with this sacred invocation:\n"
+
+	"Sealed within the radiant Topazurum Sanctum of the Holy Foobar Land, "
+	"API Wizard unlocks the arcane gates of COM automation. "
+	"Scholars wield its JavaScript incantations to master foobar2000's core. \n\n"
+
+	"Invoke the golden key: \n"
 	"const apiWizard = new ActiveXObject('APIWizard'); \n"
 	"apiWizard.PrintMessage(); \n"
-	"console.log('apiWizard', apiWizard);"
+	"apiWizard.SetWindowSize(1000, 500); \n"
+	"console.log('API Wizard summoned:', apiWizard); \n\n"
+
+	"The Wizardium Chooses Only The Anointed"
 );
 
 // Define the GUID for your component
