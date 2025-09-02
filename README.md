@@ -32,10 +32,11 @@
 <br>
 
 <!-- #region CHRONICLES OF THE TOPAZ SANCTUM -->
-*Sealed within the radiant **Topazurum Sanctum**, where glowing crystals pulse with primal energy,
-the *API Wizard* (foo_api_wizard) is a sacred key to *The Wizardium*’s grimoire.
-Its runic seal, broken only by those who master the art of COM automation, unlocks foobar2000’s ActiveX realm,
-empowering scholars to cast intricate rituals via JavaScript with spellbinding precision.*
+
+*Sealed within the radiant **Topazurum Sanctum**, where crystals hum with the primal force of automation,
+the **API Wizard** is a sacred key to The Wizardium’s grimoire.
+Its runic seal, the elder **ᚢ Uruz**, yields only to masters of COM incantations,
+unveiling foobar2000’s ActiveX realm to command its core with arcane JavaScript.
 
 <br>
 
@@ -68,7 +69,7 @@ empowering scholars to cast intricate rituals via JavaScript with spellbinding p
 ## Perform The Ritual
 
 01. **Invoke** foobar2000's installation ceremony.
-02. **Channel** this sacred chapter from its [GitHub sanctum](https://github.com/The-Wizardium/API-Wizard).
+02. **Channel** this sacred chapter from its [Topazurum Sanctum](https://github.com/The-Wizardium/API-Wizard).
 03. **Bind** the component to your foobar2000 essence.
 
 <br>
@@ -96,14 +97,6 @@ empowering scholars to cast intricate rituals via JavaScript with spellbinding p
      myCOM.SetWindowSize(1000, 500); // Set window size
      myCOM.PrintMessage(); // Display a message
      ```
-  3. See the [API documentation](API.md) for examples and reference.
-
-<br>
-
-## Enhance The Arcana
-
-For detailed information on the JavaScript API, including usage examples and a complete reference of properties and methods,
-see the [API documentation](API.md).
 
 <br>
 
